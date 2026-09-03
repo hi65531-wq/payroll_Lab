@@ -29,7 +29,7 @@ public class Payroll {
     }
 
     public double calcInsurance(int dependents) {
-        if(dependents > 3) {
+        if(dependents >= 3) {
             return 35.00;
         }
         else {
