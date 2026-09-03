@@ -37,7 +37,7 @@ public class Payroll {
         }
     }
 
-    public double calculateNetPay(double grossPay, int dependents) {
+    public double calcNetPay(double grossPay, int dependents) {
     double socialSecurity = calcSocialSecurity(grossPay);
     double federalTax = calcFederalTax(grossPay);
     double stateTax = calcStateTax(grossPay);
